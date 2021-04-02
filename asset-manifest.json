@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-03-image-finder.git/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/goit-react-hw-03-image-finder.git/static/js/main.e794accd.chunk.js",
-    "main.js.map": "/goit-react-hw-03-image-finder.git/static/js/main.e794accd.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-03-image-finder.git/static/js/runtime-main.bb0ac20c.js",
-    "runtime-main.js.map": "/goit-react-hw-03-image-finder.git/static/js/runtime-main.bb0ac20c.js.map",
-    "static/js/2.76ca40ae.chunk.js": "/goit-react-hw-03-image-finder.git/static/js/2.76ca40ae.chunk.js",
-    "static/js/2.76ca40ae.chunk.js.map": "/goit-react-hw-03-image-finder.git/static/js/2.76ca40ae.chunk.js.map",
-    "static/js/3.d009f276.chunk.js": "/goit-react-hw-03-image-finder.git/static/js/3.d009f276.chunk.js",
-    "static/js/3.d009f276.chunk.js.map": "/goit-react-hw-03-image-finder.git/static/js/3.d009f276.chunk.js.map",
+    "main.css": "/goit-react-hw-03-image-finder.git/static/css/main.3b61dad0.chunk.css",
+    "main.js": "/goit-react-hw-03-image-finder.git/static/js/main.cb7ad901.chunk.js",
+    "main.js.map": "/goit-react-hw-03-image-finder.git/static/js/main.cb7ad901.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-03-image-finder.git/static/js/runtime-main.9cb977bc.js",
+    "runtime-main.js.map": "/goit-react-hw-03-image-finder.git/static/js/runtime-main.9cb977bc.js.map",
+    "static/js/2.8ec845cf.chunk.js": "/goit-react-hw-03-image-finder.git/static/js/2.8ec845cf.chunk.js",
+    "static/js/2.8ec845cf.chunk.js.map": "/goit-react-hw-03-image-finder.git/static/js/2.8ec845cf.chunk.js.map",
     "index.html": "/goit-react-hw-03-image-finder.git/index.html",
-    "static/css/main.9d5b29c0.chunk.css.map": "/goit-react-hw-03-image-finder.git/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.76ca40ae.chunk.js.LICENSE.txt": "/goit-react-hw-03-image-finder.git/static/js/2.76ca40ae.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/goit-react-hw-03-image-finder.git/static/media/logo.6ce24c58.svg"
+    "static/css/main.3b61dad0.chunk.css.map": "/goit-react-hw-03-image-finder.git/static/css/main.3b61dad0.chunk.css.map",
+    "static/js/2.8ec845cf.chunk.js.LICENSE.txt": "/goit-react-hw-03-image-finder.git/static/js/2.8ec845cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.bb0ac20c.js",
-    "static/js/2.76ca40ae.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.e794accd.chunk.js"
+    "static/js/runtime-main.9cb977bc.js",
+    "static/js/2.8ec845cf.chunk.js",
+    "static/css/main.3b61dad0.chunk.css",
+    "static/js/main.cb7ad901.chunk.js"
   ]
 }
