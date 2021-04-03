@@ -8,10 +8,7 @@ import Loader from './components/Loader';
 import Modal from './components/Modal';
 
 import styles from './App.module.css';
-window.scrollTo({
-	top: document.documentElement.scrollHeight,
-	behavior: 'smooth',
-});
+
 class App extends Component {
 	state = {
 		images: [],
@@ -49,12 +46,17 @@ class App extends Component {
 					images: [...prevState.images, ...hits],
 					currentPage: prevState.currentPage + 1,
 				}));
+				window.scrollTo({
+					top: document.documentElement.scrollHeight,
+					behavior: 'smooth',
+				});
 			})
 			.catch((error) => this.setState({ error }))
 			.finally(() => this.setState({ isLoading: false }));
 	};
 	openModal = (event) => {
 		if (event.target.nodeName === 'IMG') {
+			console.log(event.target.dataset.url);
 			this.setState({
 				imageModal: event.target.dataset.url,
 				showModal: true,
