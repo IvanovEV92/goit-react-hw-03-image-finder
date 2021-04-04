@@ -1,9 +1,16 @@
 import axios from 'axios';
-axios.defaults.baseURL = 'https://pixabay.com/api';
+
+const BASE_URL = 'https://pixabay.com/api';
 const API_KEY = '19892329-0452805ee0827a1229c764d7c';
-const imagesApi = ({ searchQuery = '', currentPage = 1, pageSize = 12 }) => {
-	return axios
-		.get(`/?q=${searchQuery}&key=${API_KEY}&image_type=photo&orientation=horizontal&per_page=${pageSize}&page=${currentPage}`)
-		.then((response) => response.data.hits);
+
+axios.defaults.baseURL = BASE_URL;
+axios.defaults.params = {
+	key: API_KEY,
+	orientation: 'horizontal',
+	image_type: 'photo',
+	per_page: 12,
+};
+const imagesApi = ({ searchQuery = '', currentPage = 1 }) => {
+	return axios.get('', { params: { q: searchQuery, page: currentPage } }).then((response) => response.data.hits);
 };
 export { imagesApi };
